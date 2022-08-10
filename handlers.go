@@ -45,7 +45,7 @@ func authenticateHandler(w http.ResponseWriter, r *http.Request) {
 	session, _ := store.Get(r, "session")
 
 	// validating email and password
-	if email == "abhijithak683@gmail.com" && pass == "12345" {
+	if email == "test@gmail.com" && pass == "12345" {
 
 		// Assigning values to the session variables authenticated and emailId
 		session.Values["authenticated"] = true
