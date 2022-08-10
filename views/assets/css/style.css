@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#login-page-bg{
+    background: url("../images/login-page-bg.png") no-repeat;
+    background-size: cover;
+}
+
+#login-page-bg h2 {
+    color: black;
+}
+
+.login-card {
+    height: 70vh;
+    border-radius: 2%;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+.login-error-msg {
+    color: #D8000C;
+    background-color: #FFBABA;
+    border: 1px solid #D8000C;
+}
+
+.empty-space {
+    height: 2vh;
+}
+
+/* HOME PAGE STYLESHEET */
+
+#home-page-bg {
+    height: 100vh;
+    width: 100%;
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    color: white;
+    overflow-x: hidden;
+}
+
+#home-page-bg p {
+    color: #ccc;
+}
